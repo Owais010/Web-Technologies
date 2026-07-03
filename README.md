@@ -2,9 +2,9 @@
 
 ## Student Details
 
-- **Student Name:** Your Name
-- **Roll Number:** Your Roll Number
-- **Section:** Your Section
+- **Student Name:** Mir Owaiseuddin Baseer
+- **Roll Number:** 24881A12A5
+- **Section:** B
 - **Course Name:** Web Technologies
 
 ---
