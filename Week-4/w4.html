@@ -1,0 +1,46 @@
+<html>
+    <head>  
+      <style>
+        input[type=text],[type=number],[type=button]{
+            width: 100%;
+            background-color: aqua;
+            color: white;
+            border: 2px solid;
+            padding: 15px;
+        }
+        input[type=number]{
+            background-color: purple;
+        }
+        input[type=button]{
+            background-color: black;
+        }
+      </style>
+
+
+    </head>
+    <body bgcolor="lightgreen">
+      <h2>EMI Calculator</h2>
+      <form>
+        Name <input type="text" placeholder="Enter Your Name">
+        <br>Occupation <input type="text" placeholder="Enter Your Occupation">
+        <br>Loan Amount <input type="number" placeholder="Enter Amount" id="a">
+        <br> Rate Of Intrest <input type="number" placeholder="Enter ROI" id="r">
+        <br> Tenure <input type="number" placeholder="Enter no of Years" id="t">
+        <br><input type="button" value="Calculate EMI" onclick="emi()">
+      </form> 
+      <h3>EMI:</h3><p id="res"></p>
+      <script>
+        function emi(){
+        var a = Number(document.getElementById("a").value);
+        var r = Number(document.getElementById("r").value);
+        var t = Number(document.getElementById("t").value);
+        r=r/(12*100);
+        t=t*12;
+        var e = Number(a*r*Math.pow((1+r),t)/(Math.pow((1+r),t)-1));
+
+        document.getElementById("res").innerText = e.toFixed(2);7}
+      </script>
+<h5 align="right">Mir Owaiseuddin Baseer</h5>
+        <h5 align="right">24881A12A5</h5>
+    </body>
+</html>
