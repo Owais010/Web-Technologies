@@ -87,16 +87,5 @@ Validated the following fields:
 - Contact Number
 
 Displayed appropriate error messages for invalid input and a **"Registered Successfully"** message when all validations were successful.
-
----
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
 **GitHub Repository:**  
 https://github.com/Owais010/Web-Technologies
